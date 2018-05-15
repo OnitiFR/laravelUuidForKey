@@ -17,9 +17,6 @@
     use Illuminate\Database\Eloquent\Model;
     use Oniti\UuidForKey\UuidForKey;
 
-    use Context;
-    use DB;
-
     class Article extends Model
     {
         use UuidForKey;
