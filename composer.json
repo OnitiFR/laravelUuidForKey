@@ -1,0 +1,20 @@
+{
+    "name": "oniti/uuid-for-key",
+    "description": "Permet de générer un uuid préfixé du nom de la table",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Francois BOUYER",
+            "email": "francois@oniti.fr"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oniti\\UuidForKey\\": "src"
+        }
+    }
+}
